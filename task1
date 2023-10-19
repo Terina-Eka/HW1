@@ -1,0 +1,5 @@
+a=int(input("Enter smth "))
+third=a%10
+first=a//100
+second=((a//10)%10)
+print(third*100+second*10+first)
